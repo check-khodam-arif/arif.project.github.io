@@ -1,0 +1,20 @@
+html {
+  --red-color: #ff794e;
+  --orange-color: #ffb64e;
+  --yellow-color: #ffdd21;
+}
+
+html, body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(35deg, var(--red-color), var(--orange-color), var(--yellow-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
